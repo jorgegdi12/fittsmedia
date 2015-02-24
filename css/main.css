@@ -114,11 +114,58 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*Menu*/
-.topbar {background:url(../img/lines.png);   height:5px;position: fixed;top: 0;width: 100%;z-index: 1000;}
-.navbar-nav > li > a{font-size: 2.2em; line-height: 3.6em; font-family: 'aileronlight'; }
-.navbar-fixed-top{top: 5px;}
-.navbar-inverse{background: #111;}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{background: none;color: #21abca;}
+.topbar {
+    background:url(../img/lines.png);   
+    height:5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-nav > li > a{
+    font-size: 2.2em; 
+    line-height: 3.6em; 
+    font-family: 'aileronlight';
+ 
+}
+.navbar-fixed-top{
+    top: 5px;
+    border-bottom: 0;
+}
+.navbar-default {
+background: rgba(0,185,160,0.5);
+background: -moz-linear-gradient(left, rgba(0,185,160,0.5) 0%, rgba(0,185,160,0.5) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,185,160,0.5)), color-stop(100%, rgba(0,185,160,0.5)));
+background: -webkit-linear-gradient(left, rgba(0,185,160,0.5) 0%, rgba(0,185,160,0.5) 100%);
+background: -o-linear-gradient(left, rgba(0,185,160,0.5) 0%, rgba(0,185,160,0.5) 100%);
+background: -ms-linear-gradient(left, rgba(0,185,160,0.5) 0%, rgba(0,185,160,0.5) 100%);
+background: linear-gradient(to right, rgba(0,185,160,0.5) 0%, rgba(0,185,160,0.5) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b9a0', endColorstr='#00b9a0', GradientType=1 );
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    background: none;
+    color: #00B9A1;
+}
+.navbar-default .navbar-nav > li > a {
+color: #fff;
+}
+.carousel-indicators {bottom: 90px;}   
+
+.titulo{
+font-family: 'aileronlight_italic';
+color: #00B9A1;
+font-size: 4em;
+padding-top: 0.5em;
+padding-bottom: 1em;
+}
+.principal{
+  font-family: 'aileronultralight';
+  color: #808080;
+  font-size: 2em;
+  padding-top: 1em;
+  padding: 1em;
+}
 
 
 
@@ -155,7 +202,7 @@ textarea {
     .navbar-brand img{height: 37px;}
     .navbar-toggle{margin-top: 12px;}
 }
-
+.
 
 /* ==========================================================================
    Helper classes
